@@ -12,3 +12,6 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem 'spree', '2.0.3'
+gem 'mail', '2.5.3'
+gem 'money', '5.1.1'
