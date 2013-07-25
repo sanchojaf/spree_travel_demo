@@ -15,3 +15,5 @@ end
 gem 'spree', '2.0.3'
 gem 'mail', '2.5.3'
 gem 'money', '5.1.1'
+
+gem 'spree_travel', :path => '../spree_travel.git/spree_travel'

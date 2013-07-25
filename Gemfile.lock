@@ -1,3 +1,9 @@
+PATH
+  remote: ../spree_travel.git/spree_travel
+  specs:
+    spree_travel (2.0.3)
+      spree_core (~> 2.0.3)
+
 GEM
   remote: http://localhost/rubygems/
   specs:
@@ -229,6 +235,7 @@ DEPENDENCIES
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)
   spree (= 2.0.3)
+  spree_travel!
   sqlite3
   therubyracer
   uglifier (>= 1.0.3)
