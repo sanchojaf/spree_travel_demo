@@ -1,73 +1,7 @@
 PATH
-  remote: ../spree_travel.git/spree_enhanced_banner
-  specs:
-    spree_enhanced_banner (2.0.3)
-      spree_core (~> 2.0.3)
-
-PATH
-  remote: ../spree_travel.git/spree_enhanced_relations
-  specs:
-    spree_enhanced_relations (2.0.3)
-      spree_core (~> 2.0.3)
-
-PATH
-  remote: ../spree_travel.git/spree_fancy_menu
-  specs:
-    spree_fancy_menu (2.0.3)
-      spree_core (~> 2.0.3)
-
-PATH
-  remote: ../spree_travel.git/spree_location
-  specs:
-    spree_location (2.0.3)
-      spree_core (~> 2.0.3)
-
-PATH
-  remote: ../spree_travel.git/spree_openerp_communicator
-  specs:
-    spree_openerp_communicator (2.0.3)
-      spree_core (~> 2.0.3)
-
-PATH
-  remote: ../spree_travel.git/spree_property_type
-  specs:
-    spree_property_type (2.0.3)
-      spree_core (~> 2.0.3)
-
-PATH
   remote: ../spree_travel.git/spree_travel
   specs:
     spree_travel (2.0.3)
-      spree_core (~> 2.0.3)
-
-PATH
-  remote: ../spree_travel.git/spree_travel_accommodation
-  specs:
-    spree_travel_accommodation (2.0.3)
-      spree_core (~> 2.0.3)
-
-PATH
-  remote: ../spree_travel.git/spree_travel_destination
-  specs:
-    spree_travel_destination (2.0.3)
-      spree_core (~> 2.0.3)
-
-PATH
-  remote: ../spree_travel.git/spree_travel_flight
-  specs:
-    spree_travel_flight (2.0.3)
-      spree_core (~> 2.0.3)
-
-PATH
-  remote: ../spree_travel.git/spree_travel_point
-  specs:
-    spree_travel_point (2.0.3)
-      spree_core (~> 2.0.3)
-
-PATH
-  remote: ../spree_travel.git/spree_travel_program
-  specs:
-    spree_travel_program (2.0.3)
       spree_core (~> 2.0.3)
 
 PATH
@@ -75,24 +9,7 @@ PATH
   specs:
     spree_travel_rentacar (2.0.3)
       spree_core (~> 2.0.3)
-
-PATH
-  remote: ../spree_travel.git/spree_travel_route
-  specs:
-    spree_travel_route (2.0.3)
-      spree_core (~> 2.0.3)
-
-PATH
-  remote: ../spree_travel.git/spree_travel_tour
-  specs:
-    spree_travel_tour (2.0.3)
-      spree_core (~> 2.0.3)
-
-PATH
-  remote: ../spree_travel.git/spree_travel_transfer
-  specs:
-    spree_travel_transfer (2.0.3)
-      spree_core (~> 2.0.3)
+      spree_travel
 
 GEM
   remote: http://localhost/rubygems/
@@ -325,22 +242,8 @@ DEPENDENCIES
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)
   spree (= 2.0.3)
-  spree_enhanced_banner!
-  spree_enhanced_relations!
-  spree_fancy_menu!
-  spree_location!
-  spree_openerp_communicator!
-  spree_property_type!
   spree_travel!
-  spree_travel_accommodation!
-  spree_travel_destination!
-  spree_travel_flight!
-  spree_travel_point!
-  spree_travel_program!
   spree_travel_rentacar!
-  spree_travel_route!
-  spree_travel_tour!
-  spree_travel_transfer!
   sqlite3
   therubyracer
   uglifier (>= 1.0.3)
