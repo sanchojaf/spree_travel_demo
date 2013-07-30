@@ -13,8 +13,8 @@ group :assets do
 end
 
 gem 'spree', '2.0.3'
-gem 'mail', '2.5.3'
-gem 'money', '5.1.1'
+
+gem 'spree_auth_devise', '2.0.0'
 
 gem 'spree_travel',               :path => '../spree_travel.git/spree_travel'
 #gem 'spree_travel_accommodation', :path => '../spree_travel.git/spree_travel_accommodation'
