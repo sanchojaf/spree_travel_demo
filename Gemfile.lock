@@ -1,3 +1,25 @@
+GIT
+  remote: file:///home/pqr/work/jaf/spree_gems/spree_auth_devise.git/
+  revision: c09d75c9be11e1bb605053a147400c1d0a053cf3
+  branch: 2-0-stable
+  specs:
+    spree_auth_devise (2.0.0)
+      cancan (~> 1.6.7)
+      devise (~> 2.2.3)
+      devise-encryptable (= 0.1.2)
+      spree_backend (~> 2.0.0)
+      spree_core (~> 2.0.0)
+      spree_frontend (~> 2.0.0)
+
+GIT
+  remote: file:///home/pqr/work/jaf/spree_gems/spree_related_products.git/
+  revision: 9c8d3ccd267ee435e473b10e00817057e50b0225
+  branch: master
+  specs:
+    spree_related_products (3.2)
+      spree_backend (~> 2.0.0)
+      spree_core (~> 2.0.0)
+
 PATH
   remote: ../spree_travel.git/spree_travel
   specs:
@@ -174,13 +196,6 @@ GEM
       rabl (= 0.8.4)
       spree_core (= 2.0.3)
       versioncake (= 1.0.0)
-    spree_auth_devise (2.0.0)
-      cancan (~> 1.6.7)
-      devise (~> 2.2.3)
-      devise-encryptable (= 0.1.2)
-      spree_backend (~> 2.0.0)
-      spree_core (~> 2.0.0)
-      spree_frontend (~> 2.0.0)
     spree_backend (2.0.3)
       deface (>= 0.9.0)
       jquery-rails (~> 2.0)
@@ -257,7 +272,8 @@ DEPENDENCIES
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)
   spree (= 2.0.3)
-  spree_auth_devise (= 2.0.0)
+  spree_auth_devise!
+  spree_related_products!
   spree_travel!
   spree_travel_rentacar!
   sqlite3
