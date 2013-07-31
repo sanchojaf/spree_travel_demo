@@ -275,6 +275,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  google_static_maps_helper
   jquery-rails
   json
   rails (= 3.2.13)
