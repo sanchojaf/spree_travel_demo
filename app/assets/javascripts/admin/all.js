@@ -11,3 +11,4 @@
 
 //= require_tree .
 //= require admin/spree_travel
+//= require admin/spree_location
