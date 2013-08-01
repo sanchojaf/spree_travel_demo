@@ -1,0 +1,13 @@
+/.bundle
+/.idea
+
+*.sqlite3
+*.db
+
+/log/*.log
+
+/tmp
+*.swp
+*~
+
+public/spree
