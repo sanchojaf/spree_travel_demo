@@ -1,5 +1,5 @@
 GIT
-  remote: file:///home/pqr/work/jaf/spree_gems/spree_auth_devise.git/
+  remote: file:///home/pqr/work/jaf/spree/spree_auth_devise/
   revision: c09d75c9be11e1bb605053a147400c1d0a053cf3
   branch: 2-0-stable
   specs:
@@ -12,7 +12,7 @@ GIT
       spree_frontend (~> 2.0.0)
 
 GIT
-  remote: file:///home/pqr/work/jaf/spree_gems/spree_related_products.git/
+  remote: file:///home/pqr/work/jaf/spree/spree_related_products/
   revision: 9c8d3ccd267ee435e473b10e00817057e50b0225
   branch: master
   specs:
@@ -21,20 +21,20 @@ GIT
       spree_core (~> 2.0.0)
 
 PATH
-  remote: ../spree_travel.git/spree_location
+  remote: ../spree_location
   specs:
     spree_location (2.0.3)
       google_static_maps_helper
       spree_core (~> 2.0.3)
 
 PATH
-  remote: ../spree_travel.git/spree_travel
+  remote: ../spree_travel
   specs:
     spree_travel (2.0.3)
       spree_core (~> 2.0.3)
 
 PATH
-  remote: ../spree_travel.git/spree_travel_rentacar
+  remote: ../spree_travel_rentacar
   specs:
     spree_travel_rentacar (2.0.3)
       spree_core (~> 2.0.3)
