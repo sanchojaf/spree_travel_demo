@@ -28,6 +28,12 @@ PATH
       spree_core (~> 2.0.3)
 
 PATH
+  remote: ../spree_property_type
+  specs:
+    spree_property_type (2.0.3)
+      spree_core (~> 2.0.3)
+
+PATH
   remote: ../spree_travel
   specs:
     spree_travel (2.0.3)
@@ -283,6 +289,7 @@ DEPENDENCIES
   spree (= 2.0.3)
   spree_auth_devise!
   spree_location!
+  spree_property_type!
   spree_related_products!
   spree_travel!
   spree_travel_rentacar!

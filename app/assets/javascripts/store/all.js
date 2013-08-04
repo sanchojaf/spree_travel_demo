@@ -12,3 +12,4 @@
 //= require_tree .
 //= require store/spree_travel
 //= require store/spree_location
+//= require store/spree_property_type
