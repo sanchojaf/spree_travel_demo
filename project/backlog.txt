@@ -1,0 +1,96 @@
+* ver si hay que hacer algo com las promociones
+  - incluirle imagenes
+
+* customizar el proceso de checkout
+  - pensar si tiene sentido que cada tipo de producto tenga checkout distinto
+  - ver lo como pasarle parametros al checkout (context o parametros)
+  - ver como hacer lo de los pax
+
+* los productos populares
+  - en spree 1.0.7 se demora 4 segundos y pico esa consulta
+  - hay que ver si tiene sentido mantenerla
+  - como minimo hay que optimizarla
+
+* usar memcached para las consultas que mas se repiten
+  - mudar las cosas de spree_solr_search para spree_sunspot_search
+  - estudiar que consultas se repiten mas
+  - estudiar que informacion no cambia mucho en el tiempo para guardarla mas tiempo
+  - estudiar que estacio necesitamos tener
+  - ver lo de la busqueda facetada
+  - ver que parametros se guardan en solr y cuales no para ganar velocidad
+  - pensar en no solo guardar productos sino variantes, optio values, etc.
+
+* busqueda con sunspot
+  - busqueda de texto en el cuadrado de arriba
+  - tener en cuenta el paginado
+  - tener en cuenta la ordenacion
+
+* ver bien lo del pago con worldpay
+  - el boton de laura para las compras de productos que no tenemos
+  - links automaticos a wordpay para pagar ahora
+  - correo con el link a worldpay para pagar despues
+  - callback para enterarnos que el tipo pago
+
+* ver otros tipos de pago
+  - tarjetas de credito (visa, mastercard, etc)
+  - paypal, paypal express, etc.
+
+* eliminar el shipping
+
+* mapita interactivo que quiere julio
+  - a mi me parece una buena idea meter un mapita de ese tipo
+
+* correos que se envian
+  - ver como se ponen y donde las plantillas del correo para que sean facilmente editables
+
+* los property types
+
+* los address, se mantiene igual? hay que cambiar algo? estudiar eso
+
+* estudiar el mecanismo de spree para hacer configuraciones
+  - por una parte para usar bien las variables de configuracion que tiene
+  - y por otra parte para genera nosotros nuesrtas propias configuraciones en nuestras gemas
+
+* los calculators
+  - la idea es que cada gema programe su calculator
+  - en algun momento habia una onda con unos Rate pero ya no me acuerdo bien
+
+* la carga de datos
+  - con excels
+  - con pentajo
+  - openerp --> spree
+
+* las imagenes y sus formatos
+  - muy importante hacer el STRIP para el tamaño de la misma
+
+* la comunicacion con openerp
+  - usar el conector que hace la gente de factor libre
+  - o implementar nosotros uno propio
+
+* las traducciones a varios idiomas
+  - del sitio
+  - de los datos
+
+* optimizar el sitio
+  - meter includes en donde quiera que ocurra el N + 1 query problem
+  - usar memcached cuando haga falta y donde se pueda
+  - usar los mecanismos de rails para hacer cache (de paginas, de acciones, se fragmentos)
+  - ver bien lo del fingerprint de los assets en general
+  - comprimir los js y los css
+  - estudiar bien como apache o nginx tratan los assets
+  - estudiar las consultas que mas se demoran y ver por que
+  - pensar en hacer tablas con informacion redundante para acelear proceso
+  - penasr guardar las imagenes en otro lado (digase amazon s3)
+  - revisar bien el codigo ruby generado para evitar codigo ineficiente
+
+* hacer SEO
+  - tengo un tutorial ahi que tiene mil consejos para mejorar
+
+* usar cookies para recordar al tipo aunque no este logueado
+  - para mostrarle las cosas que el ha visto
+  - para sugerirle cosas similares a las que el ha visto
+
+* estudiar los product groups que todavia no sabemos usar bien
+  - esto puede ayudar a mejorar lo de los productos mas valorados
+
+* estudiar los prototipos que tampoco sabemos usar bien
