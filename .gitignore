@@ -3,6 +3,7 @@
 
 *.sqlite3
 *.db
+*.orig
 
 /log/*.log
 
