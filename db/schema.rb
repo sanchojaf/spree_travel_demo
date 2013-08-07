@@ -322,7 +322,6 @@ ActiveRecord::Schema.define(:version => 20130804025603) do
     t.datetime "created_at",                                         :null => false
     t.datetime "updated_at",                                         :null => false
     t.string   "type",                 :default => "Spree::Product"
-    t.string   "otro",                 :default => "Spree::Product"
   end
 
   add_index "spree_products", ["available_on"], :name => "index_spree_products_on_available_on"

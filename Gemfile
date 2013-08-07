@@ -1,11 +1,13 @@
 # Configuracion de PQR
-GEMS_PATH = 'http://localhost/rubygems/'
-SPREE_PATH = 'file:///home/pqr/work/jaf/spree'
+#GEMS_PATH = 'http://localhost/rubygems/'
+GEMS_PATH = 'http://rubygems.org'
+#SPREE_PATH = 'file:///home/pqr/work/jaf/spree'
+SPREE_PATH = 'https://github.com/spree'
 ########################################################################
 
 source GEMS_PATH
 
-gem 'rails', '3.2.13'
+gem 'rails', '3.2.14'
 gem 'sqlite3'
 gem 'json'
 gem 'jquery-rails'
@@ -18,8 +20,8 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'spree', '2.0.3'
-#gem 'spree', :git => "#{SPREE_PATH}/spree/", :branch => '2-0-stable'
+#gem 'spree', '2.0.3'
+gem 'spree', :git => "#{SPREE_PATH}/spree/", :branch => '2-0-stable'
 gem 'spree_auth_devise', :git => "#{SPREE_PATH}/spree_auth_devise/", :branch => '2-0-stable'
 gem 'spree_related_products', :git => "#{SPREE_PATH}/spree_related_products/", :branch => 'master'
 gem 'spree_property_type', :path => '../spree_property_type'
