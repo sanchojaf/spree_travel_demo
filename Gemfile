@@ -1,9 +1,17 @@
-# Configuracion de PQR
-#GEMS_PATH = 'http://localhost/rubygems/'
+MODE = 'git'  #REMOTE MODE
+#MODE = 'path' #LOCAL MODE
+
+# REMOTE CONFIGURATION (DEFAULT)
 GEMS_PATH = 'http://rubygems.org'
-#SPREE_PATH = 'file:///home/pqr/work/jaf/spree'
 SPREE_PATH = 'https://github.com/spree'
-########################################################################
+SPREE_TRAVEL_PATH = 'https://github.com/openjaf'
+
+## lOCAL PQR CONFIGURATION
+#GEMS_PATH = 'http://localhost/rubygems/'
+#SPREE_PATH = 'file:///home/pqr/work/jaf/spree'
+#SPREE_TRAVEL_PATH = '..'
+
+##################################################
 
 source GEMS_PATH
 
@@ -20,19 +28,22 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-#gem 'spree', '2.0.3'
-gem 'spree', :git => "#{SPREE_PATH}/spree/", :branch => '2-0-stable'
-gem 'spree_auth_devise', :git => "#{SPREE_PATH}/spree_auth_devise/", :branch => '2-0-stable'
-gem 'spree_related_products', :git => "#{SPREE_PATH}/spree_related_products/", :branch => 'master'
-gem 'spree_property_type', :path => '../spree_property_type'
-gem 'spree_travel', :path => '../spree_travel'
-gem 'spree_location', :path => '../spree_location'
-gem 'spree_travel_rentacar',      :path => '../spree_travel_rentacar'
-#gem 'spree_travel_accommodation', :path => '../spree_travel.git/spree_travel_accommodation'
-#gem 'spree_travel_destination',   :path => '../spree_travel.git/spree_travel_destination'
-#gem 'spree_travel_flight',        :path => '../spree_travel.git/spree_travel_flight'
-#gem 'spree_travel_point',         :path => '../spree_travel.git/spree_travel_point'
-#gem 'spree_travel_program',       :path => '../spree_travel.git/spree_travel_program'
-#gem 'spree_travel_route',         :path => '../spree_travel.git/spree_travel_route'
-#gem 'spree_travel_tour',          :path => '../spree_travel.git/spree_travel_tour'
-#gem 'spree_travel_transfer',      :path => '../spree_travel.git/spree_travel_transfer'
+#SPREE_GEMS
+gem 'spree',                      :git => "#{SPREE_PATH}/spree", 					:branch => '2-0-stable'
+gem 'spree_auth_devise', 		  :git => "#{SPREE_PATH}/spree_auth_devise", 		:branch => '2-0-stable'
+gem 'spree_related_products', 	  :git => "#{SPREE_PATH}/spree_related_products"
+
+#SPREE_TRAVEL_GEMS
+gem 'spree_property_type', 		   :"#{MODE}" => "#{SPREE_TRAVEL_PATH}/spree_property_type"
+gem 'spree_travel', 			   :"#{MODE}" => "#{SPREE_TRAVEL_PATH}/spree_travel"
+gem 'spree_location',              :"#{MODE}" => "#{SPREE_TRAVEL_PATH}/spree_location"
+gem 'spree_travel_rentacar',       :"#{MODE}" => "#{SPREE_TRAVEL_PATH}/spree_travel_rentacar"
+
+#gem 'spree_travel_accommodation',:#{MODE} => "#{SPREE_TRAVEL_PATH}/spree_travel_accommodation"
+#gem 'spree_travel_destination',  :#{MODE} => "#{SPREE_TRAVEL_PATH}/spree_travel_destination"
+#gem 'spree_travel_flight',       :#{MODE} => "#{SPREE_TRAVEL_PATH}/spree_travel_destination"
+#gem 'spree_travel_point',        :#{MODE} => "#{SPREE_TRAVEL_PATH}/spree_travel_destination"
+#gem 'spree_travel_program',      :#{MODE} => "#{SPREE_TRAVEL_PATH}/spree_travel_destination"
+#gem 'spree_travel_route',        :#{MODE} => "#{SPREE_TRAVEL_PATH}/spree_travel_destination"
+#gem 'spree_travel_tour',         :#{MODE} => "#{SPREE_TRAVEL_PATH}/spree_travel_destination"
+#gem 'spree_travel_transfer',     :#{MODE} => "#{SPREE_TRAVEL_PATH}/spree_travel_destination"
