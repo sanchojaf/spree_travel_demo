@@ -1,5 +1,5 @@
 # This migration comes from spree_location (originally 20130530022033)
-class CreateLocations < ActiveRecord::Migration
+class CreateSpreeLocations < ActiveRecord::Migration
   def change
     create_table :spree_locations do |t|
       t.references :locatable, :polymorphic => true

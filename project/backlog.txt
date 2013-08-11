@@ -8,22 +8,23 @@ RPA - Raul Perez-alejo ...
 ___ - Cualquiera
 TST - Tesistas (Alejandro Dustet y Luis Mauri)
 
-[3] - Prioridad Alta
-[2] - Prioridad Media
-[1] - Baja prioridad
-[ ] - No se que prioridad darle
+[1] - Prioridad Baja         (PL)
+[2] - Prioridad Media        (PM)
+[3] - Prioridad Alta         (PH)
+[ ] - Prioridad indefinida   (P?) 
 
-[a] - sencillo
-[b] - medio
-[c] - dificil
-[?] - no se cuan dificil sea esto o no
+[a] - Complejidad Baja       (CL) 
+[b] - Complejidad Media      (CM)
+[c] - Complejidad Alta       (CH)
+[?] - Complejidad Indefinida (C?)
+
 
 ######################################################################################################################
 ### POR HACER
 ######################################################################################################################
 
-Funcionalidades
-===============
+Funcionalidades Generales
+=========================
 [1] [b] ___ ver el tema de las promociones, si es spree_promo o ya viene, ver lo que tiene
 [3] [c] RPA customizacion del proceso de checkout
 [3] [b] RPA pensar si tiene sentido que cada tipo de producto tenga su propio proceso de checkout
