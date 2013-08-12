@@ -11,9 +11,9 @@ TST - Tesistas (Alejandro Dustet y Luis Mauri)
 [1] - Prioridad Baja         (PL)
 [2] - Prioridad Media        (PM)
 [3] - Prioridad Alta         (PH)
-[ ] - Prioridad indefinida   (P?) 
+[ ] - Prioridad indefinida   (P?)
 
-[a] - Complejidad Baja       (CL) 
+[a] - Complejidad Baja       (CL)
 [b] - Complejidad Media      (CM)
 [c] - Complejidad Alta       (CH)
 [?] - Complejidad Indefinida (C?)
@@ -110,6 +110,21 @@ Funcionalidades Generales
 [2] [c] ___ las cosas de redes sociales facebook, twitter, etc
 [3] [c] RPA las modificaciones de las gemas (flexivariat, etc.) todas las gemas modificadas hay que desmodificarlas
 [2] [b] ___ las cosas de geokit, ver si hay algo mas moderno que eso
+[1] [a] ___ NEW adicionar cantidad de habitaciones en buscador de hotel
+[1] [b] ___ NEW que en el buscador si uno cambia la fecha de inicion, con js se cambie la de fin tambien
+[1] [a] ___ NEW adicionar anuncios de google en el sitio para amortizar otros gastos
+[1] [a] ___ NEW poder tener un mapa mas grade con mas nivel de detalle (ya lo del mapa interactivo es otro todo)
+[1] [b] ___ NEW adicionar otros metodos de ordenacion (mas comprados, distancia, etc.)
+[1] [c] ___ NEW filtros por rangos de precios
+[1] [b] ___ NEW ponerle un momton mas de properties a los productos para poder hacer busquedas mas interesantes
+[1] [b] ___ NEW mostrar los productos que ha visto el usuario en las paginas que el visita
+[1] [c] ___ NEW visualizador de imagines super comico y pacotilloso a lo facebook, con un overlay y slideshow y todo eso
+[1] [c] ___ NEW visualizar en en listado de hotel, las habitaciones, los precios y el boton de comprar, sin tener que ir a detalles
+[1] [b] ___ NEW representar con unos iconitos la cantidad de pax de una reservacion en el listado de productos
+[1] [a] ___ NEW que en el listado de hoteles se vea la categoria del hotel [tipo de hotel]
+[1] [a] ___ NEW tiene que quedar bien claro el precio que cosa es [total, por noche, por 2 personas, etc.]
+[1] [a] ___ NEW link a los comentarios del producto
+[1] [b] ___ NEW fecha de la ultima vez que se compro el producto, cantidad de veces que se ha comprado, etc.
 
 Carga de Datos
 ==============
