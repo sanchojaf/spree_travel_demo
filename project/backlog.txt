@@ -7,21 +7,21 @@ LEYENDA
 @any - Cualquiera
 @tst - Tesistas (Alejandro Dustet y Luis Mauri)
 
-[pl] - Prioridad Baja   
-[pm] - Prioridad Media  
-[ph] - Prioridad Alta   
-[p?] - Prioridad indefinida
+[convenient] - Prioridad Baja   
+[necessary]  - Prioridad Media  
+[urgent]     - Prioridad Alta   
+[p?]         - Prioridad indefinida
 
-[cl] - Complejidad Baja    
-[cm] - Complejidad Media   
-[ch] - Complejidad Alta    
-[c?] - Complejidad Indefinida
+[easy]      - Complejidad Baja    
+[normal]    - Complejidad Media   
+[difficult] - Complejidad Alta    
+[c?]        - Complejidad Indefinida
 
 ######################################################################################################################
 # openjaf/cuban_swing open issues
 ######################################################################################################################
   133  Posibilidad de subir videos, valorar Vimeo [convenient] [normal]
-  132  Desde un listado, limitar las opciones del buscador a las válidas para el listado. [convenient] [normal]  132  [pm][cm] 
+  132  Desde un listado, limitar las opciones del buscador a las válidas para el listado. [convenient] [normal]
   131  Al modificar la búsqueda desde show, limitar las selecciones de contexto a las válidas del producto [convenient] [normal] @tst 
   130  fecha de la última vez que se compró el producto, cantidad de veces que se ha comprado, etc. [convenient] [normal]
   129  link a los comentarios del producto [convenient] [easy]
