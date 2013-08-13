@@ -1,6 +1,6 @@
 GIT
   remote: file:///home/pqr/work/jaf/openjaf/spree_location
-  revision: 87430c2bd5bf90bb57510d0dbd6b49b886368fe4
+  revision: 950888bd05c6681ae6c295f8ff41a9ead87346a6
   specs:
     spree_location (2.0.3)
       google_static_maps_helper
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: file:///home/pqr/work/jaf/openjaf/spree_property_type
-  revision: 9b0ebee35719f84ea0c3568ff796baaac3c8cab6
+  revision: 0803a17975e58f772be110529e99e47f64d00404
   specs:
     spree_property_type (2.0.3)
       spree_core (~> 2.0.3)
