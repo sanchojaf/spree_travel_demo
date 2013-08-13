@@ -1,169 +1,159 @@
 LEYENDA
 =======
+@snc - Miguel Sancho Fernandez
+@pqr - Pedro Quintero Rojas
+@clg - Cesar Lage Codorniu
+@rpa - Raul Perez-alejo ...
+@any - Cualquiera
+@tst - Tesistas (Alejandro Dustet y Luis Mauri)
 
-MSF - Miguel Sancho Fernandez
-PQR - Pedro Quintero Rojas
-CLC - Cesar Lage Codorniu
-RPA - Raul Perez-alejo ...
-___ - Cualquiera
-TST - Tesistas (Alejandro Dustet y Luis Mauri)
+[pl] - Prioridad Baja   
+[pm] - Prioridad Media  
+[ph] - Prioridad Alta   
+[p?] - Prioridad indefinida
 
-[1] - Prioridad Baja         (PL)
-[2] - Prioridad Media        (PM)
-[3] - Prioridad Alta         (PH)
-[ ] - Prioridad indefinida   (P?)
+[cl] - Complejidad Baja    
+[cm] - Complejidad Media   
+[ch] - Complejidad Alta    
+[c?] - Complejidad Indefinida
 
-[a] - Complejidad Baja       (CL)
-[b] - Complejidad Media      (CM)
-[c] - Complejidad Alta       (CH)
-[?] - Complejidad Indefinida (C?)
+######################################################################################################################
+# openjaf/cuban_swing open issues
+######################################################################################################################
+
+ 132  [pl][cm] @any fecha de la ultima vez que se compro el producto, cantidad de veces que se ha comprado, etc. [General]
+ 131  [pl][cl] @any link a los comentarios del producto [General]
+ 130  [pl][cl] @any tiene que quedar bien claro el precio que cosa es [total, por noche, por 2 personas, etc.] [General]
+ 129  [pl][cl] @any que en el listado de hoteles se vea la categoria del hotel [tipo de hotel] [General]
+ 128  [pl][cm] @any representar con unos iconitos la cantidad de pax de una reservacion en el listado de productos [General]
+ 127  [pl][ch] @any visualizar en en listado de hotel, las habitaciones, los precios y el boton de comprar, sin tener que ir a detalles [General]
+ 126  [pl][ch] @any visualizador de imagines super comico y pacotilloso a lo facebook, con un overlay y slideshow y todo eso [General]
+ 125  [pl][cm] @any mostrar los productos que ha visto el usuario en las paginas que el visita [General]
+ 124  [pl][cm] @any ponerle un momton mas de properties a los productos para poder hacer busquedas mas interesantes [General]
+ 123  [pl][ch] @any filtros por rangos de precios [General]
+ 122  [pl][cm] @any adicionar otros metodos de ordenacion (mas comprados, distancia, etc.) [General]
+ 121  [pl][cl] @any poder tener un mapa mas grade con mas nivel de detalle (ya lo del mapa interactivo es otro todo) [General]
+ 120  [pl][cl] @any adicionar anuncios de google en el sitio para amortizar otros gastos [General]
+ 119  [pl][cm] @any que en el buscador si uno cambia la fecha de inicion, con js se cambie la de fin tambien [General]
+ 118  [pl][cl] @any el overlay de las descripciones [Diseño]
+ 117  [pl][cl] @any buscar un ckedior, tinymce o quien sea, pero que sea bien ligero [Diseño]
+ 116  [pl][ch] @any ver como sunspot da sugerencias a las busquedas [Diseño]
+ 115  [pl][cl] @any resaltar productos que esten promocionados [Diseño]
+ 114  [pl][cl] @any imagenes por defecto de properties, taxons, productos, etc [Diseño]
+ 113  [pm][ch] @any implementar scroll infinito [Diseño]
+ 112  [ph][ch] @snc garantizar que en todo momento el sitio se vea en moviles [Diseño]
+ 111  [pl][ch] @any que la imagen solo se pida cuando el usuario bajo el scroll hasta ella [Diseño]
+ 110  [pl][ch] @any que las imagenes no se carguen automaticamente, se muestra un loadind y luego se piden asincronamente [Diseño]
+ 109  [pl][cl] @any un loading para cuando el sitio se carga [Diseño]
+ 108  [ph][ch] @snc asegurarse que los cambios que nosotros hacermos mantengan el responsiveness de spree_fancy [Diseño]
+ 107  [ph][ch] @snc ver lo de los temas de spree (fancy en particular) [Diseño]
+ 106  [p?][cm] @any recordar, idiomas, settings, categorias mas visitadas, etc, y sugerir cosas, ver productos similares, etc. [Diseño]
+ 105  [p?][cm] @any usar cookies para saber las cosas que visita sin que se loguee [Diseño]
+ 104  [p?][ch] @snc mapita interactivo que quiere julio (lo cual me parece una buena idea tener) [Diseño]
+ 103  [p?][ch] @rpa ver si se puede hacer un autocompletamniento en la busqueda con las cosas que hay en la base de datos [Diseño]
+ 102  [p?][ch] @any ver si se puede generar con js un sellito encima de las imagenes de los productos que tienen promocion. [Diseño]
+ 101  [p?][cl] @any adicionarle imagenes a las promociones [Diseño]
+  99  [pl][cl] @any hacer tareas rake para cargar datos [Carga de Datos]
+  98  [pl][ch] @any estudiar como se exporta a pdf [Carga de Datos]
+  97  [pl][cm] @any estudiar los prototipos que tampoco sabemos usar bien (pensando en la carga de datos) [Carga de Datos]
+  96  [pl][ch] @any valorar hacer nosotros nuestro propio conector (la otrora gema spree_openerp_communicator) [Carga de Datos]
+  95  [pm][ch] @any hacer funciones en spree para importar y exporar datos desde y hacia openerp [Carga de Datos]
+  94  [pm][ch] @any hacer funciones en spree para importar y exportar datos en excel [Carga de Datos]
+  93  [pl][cm] @any hacer metodos para exportar datos del sistema en excels que puedan ser cargados por el propio sistema. [Carga de Datos]
+  92  [ph][cm] @any definir para cada modulo formato general de intercambio de datos [Carga de Datos]
+  91  [ph][ch] @any hacer scripts de carga en el mecanismo mejor que encontremos [Carga de Datos]
+  90  [ph][ch] @snc estudiar esale_spree (u otro conector con openerp que exista, el de factor libre, etc.) [Carga de Datos]
+  89  [ph][ch] @clc ver como se integra pentajo con rails [Carga de Datos]
+  88  [ph][ch] @snc estudiar la gema data-shift-spree [Carga de Datos]
+  87  [ph][ch] @snc estudiar la gema spreadsheet [Carga de Datos]
+  86  [pm][cm] @any las cosas de geokit, ver si hay algo mas moderno que eso [General]
+  85  [ph][ch] @rpa las modificaciones de las gemas (flexivariat, etc.) todas las gemas modificadas hay que desmodificarlas [General]
+  84  [pm][ch] @any las cosas de redes sociales facebook, twitter, etc [General]
+  83  [pl][cl] @any ver lo de las paginas estaticas [General]
+  82  [pl][cl] @any mostrar distancia a los puntos de interes [General]
+  81  [pl][cm] TST baners super comicos, y mejorados asociados a taxons, etc. [General]
+  80  [pm][ch] @any implementar los rentacars [General] 
+  79  [pm][ch] @any modificar order o line_item para que cargue su contexto cuando le haga falta [General]
+  78  [pm][cm] @any adicionar clase Context para cada tipo de producto con logica particular para cada contexto [General]
+  77  [ph][cm] @any revisar bien en sunspot como buscar por properties, properti types, option values, etc. [General]
+  76  [pm][ch] @any implementar metodo generico product.facets que cada modulo redefina para la busqueda facetada [General]
+  75  [pm][ch] @any implementar los filter queries (para los filtros de abajo del buscador) y que cada modulo redefina el metodo [General]
+  74  [ph][cm] @any implementar metodos in_taxon_at_same_time (bien optimizados) [General]
+  73  [pm][ch] @any implementar las excursiones [General]
+  72  [pm][ch] @any implementar los transfers (tiene dos taxos de destino) [General]
+  71  [pm][ch] @any implementar los destinos (subdestinos recursivos) (no tienen precio) [General]
+  70  [ph][ch] @any implementar los vuelos (internacionales, domesticos, ida, ida y vuelta, etc.) (tiene 2 taxons de destino) [General]
+  69  [ph][ch] @any implementar los accomodation (hoteles y habitaciones) [General]
+  68  [pl][cm] TST las cosas de spree_location deben ser configurables via Spree::Config (cantidad a mostrar, distancia max) [General]
+  67  [pl][cm] TST terminar los spree_location (meterle lo de nearest, related, etc.) mostrar varias cosas en el mapa, etc. [General]
+  66  [pl][ch] TST hacer un menu super comico y pacotilloso con javascript y configurable en la administracion [General]
+  65  [ph][ch] @any implementar lo de los puntos de interes, con sus categorias, sus vistas, etc (quitarles precio) [General]
+  64  [pl][ch] TST todo lo de las relaciones mejoradas se puede hacer en la vista de administracion [General]
+  63  [pl][ch] TST las relaciones deben permitir definir diferentes tipos en el related_to y el relatable [General]
+  62  [pl][ch] TST implemtar los enhanced relations (1-m, m-m, 1-1, validaciones, etc.) [General]
+  61  [pm][ch] @any implementar las rutas (rutas a pie, en bicicleta, en guagua, en camion, en otras cosas) [General]
+  60  [pm][ch] @any Implementar los programas/paquetes que no tienen nada de especial [General]
+  59  [pl][cm] @any Hacer en el buscador lo de nueva busqueda o actualizar precio [General]
+  58  [pl][cl] @any Visualizar el contexto en el búscador [General]
+  56  [ph][cl] @any Cart-form y mini-cart-form en la vista index, show, etc [General]
+  55  [pl][cm] @any Hacer lo de los bread crumbs [General]
+  54  [pl][cm] @any Hacer buen uso de I18n, no solo usar translate, usar tambien transliterate, localize, etc [General]
+  53  [ph][ch] @rpa Ver lo del multicurrency [General]
+  52  [pl][cl] @any Slider de la vista home [General] 
+  51  [pl][cm] @any Login con overlay, ajax para autenticarse sin salir de la página y con alert si hay error [General]
+  50  [pl][cm] @any Adicionar autocompletamiento en el buscador [General]
+  49  [ph][ch] @any Hacer un buscador donde cada módulo ponga su información [General]
+  48  [pl][cm] @any Estudiar los prototipos a la hora de crear un producto nuevo [General]
+  47  [pm][cm] @any Implementar lo de los productos recomendados [General]
+  46  [pl][cm] @any Aprender bien como se usan y para qué sirven los product_groups [General]
+  45  [ph][ch] @any Hacer todas las cosas de SEO que nos encontremos [General]
+  44  [pl][cm] @any Valorar almacernar imágenes en amazon s3, ver qué hay en spree y en rails [General]
+  43  [pl][ch] @any Valorar hacer tablas con informacion redundante para agilizar datos [General]
+  42  [pm][ch] @any Estudiar las consultas que más tiempo demoran y averiguar por qué [General]
+  41  [pl][ch] @any Decidir si vamos a usar apache o nginx y aprender como tratan los assets [General]
+  40  [ph][cm] @any En producción siempre comprimir los assets [General]
+  39  [ph][ch] @any Ver bien lo de los assets fingerprint [General]
+  38  [pm][ch] @any Estudiar bien rails en los temas de cache. [General]
+  37  [ph][ch] @any Ver donde quiera que ocurra el N + 1 query problem y eliminarlo [General]
+  36  [pm][cm] @any Las traducciones del sitio, y los productos [General]
+  35  [ph][cl] @any Acordarse de hacer strip, y ver parámetros a pasar para que los thumbnails sean chiquitos [General]
+  34  [pm][cl] @any Que cada tipo de producto defina su tamaño de imagen o cuantas imagenes usa [General]
+  33  [pm][ch] @any Estudiar paperclip a ver si se puede definir dinamicamente el tamaño de la imagen (cargarla de config) [General]
+  32  [pl][cl] @any Poner botones para la carga de datos en la vista de administración [General]
+  31  [p?][c?] @any Qué hay de los calculators? se usan? y los rates? cada modulo implementa su calculator y su rate? [General]
+  30  [p?][ch] @any Generar bien todas las configuraciones que nos hacen falta en las gemas [General]
+  29  [p?][cm] @any Estudiar mecanismo de spree para configuraciones para usarlo en las gemas [General] 
+  28  [p?][cm] @rpa Qué hay con los addresses? se quedan igual que ahora? cambia algo? [General]
+  27  [pm][cm] @pqr Los property types (con iconos y otras cosas más) [General]
+  26  [p?][cm] @any Hacer configurable las plantillas de los correos que se envian en la administración [General]
+  25  [pl][cl] @any Eliminar todo lo relacionado con shipping [General]
+  24  [pm][ch] @any Ver como es el tema con otros tipos de pago (tarjetas de credito, paypal, etc.) [General]
+  23  [pl][cl] @any Feed para cuando aparecen nuevos productos o nuevas promociones [General]
+  22  [pl][cl] @any Feed cuando aparecen nuevas órdenes de compra [General]
+  21  [pm][cl] @any Un botón que permita vender otros productos que no estén en el sitio [General]
+  20  [ph][cm] @any El pago con worldpay (correos con links, callbacks, etc.) [General]
+  19  [pl][cm] @clc estudiar como se pagina y como se ordena con sunspot [General]
+  18  [pm][cl] @any implementar la busqueda general de arriba con sunspot [General]
+  17  [pm][cm] @clc valorar guardar en solr option_type, option_values, prperties, etc, para mejorar velocidad [General]
+  16  [pm][ch] @clc valorar que atributos de que clases hay que guardar en solr, si los de ahora estan bien o no [General]
+  15  [pm][ch] @any ver como es lo de las busqueda facetada y los drill down search con sunspot [General]
+  14  [ph][ch] @clc mudar las cosas de acts_as_solr => sunspot_rails y spree_solr => spree_sunspot [General]
+  13  [pl][cm] @snc Analizar disponibilidad e inventario y hacer las modificaciones necesarias  [General]                 
+  12  [ph][ch] @clc Estudiar sunspot [General]
+  11  [pl][cm] @any Estudiar cuanta ram utilizar para memcached [General]
+  10  [pm][ch] @any Estudiar información que no cambia en el tiempo para guardarla en memcached [General]
+   9  [pm][ch] @any Estudiar las consultas que más se repiten y guardarlas en memcached [General]
+   8  [ph][cm] @pqr Estudiar memcached para optimizar el sitio [General]
+   7  [pm][cm] @pqr Reimplementar lo de los productos más populares [General]
+   6  [ph][ch] @rpa Hacer lo de los pax (tener en cuenta los distintos tipos de productos) [General]
+   5  [ph][ch] @rpa Persistir en la base de datos los parámetros con los que llega el producto al carrito [General]
+   4  [ph][ch] @rpa Ver como pasar parametros al carrito (context o algo asi) [General]
+   3  [ph][cm] @rpa Cada tipo de producto tenga su propio proceso de checkout [General]
+   2  [ph][ch] @rpa Customizacion del proceso de checkout [General]
+   1  [pl][cm] @any Ver el tema de las promociones, si es spree_promo o ya viene, ver lo que tiene [General]
 
 
 ######################################################################################################################
-### POR HACER
-######################################################################################################################
-
-Funcionalidades Generales
-=========================
-[1] [b] ___ ver el tema de las promociones, si es spree_promo o ya viene, ver lo que tiene
-[3] [c] RPA customizacion del proceso de checkout
-[3] [b] RPA pensar si tiene sentido que cada tipo de producto tenga su propio proceso de checkout
-[3] [c] RPA ver como pasar parametros al carrito (context o algo asi)
-[3] [c] RPA ver como persistir en la base de datos los parametros con los que llega el producto al carrito
-[3] [c] RPA ver como hacer lo de los pax (tener en cuenta los distintos tipos de productos)
-[2] [b] PQR reimplementar lo de los productos mas populares que ahora mismo es una consulta que demora 4s
-[3] [b] PQR estudiar memcached para optimizar el sitio
-[2] [c] ___ estudiar las consultas que mas se repiten en el sitio para meterla en memcached
-[2] [c] ___ estudiar informacion que no cambia en el tiempo para meterle memcached
-[1] [b] ___ estudiar cuanta ram utilizar para memcached
-[3] [c] CLC estudiar sunspot
-[3] [c] CLC mudar las cosas de acts_as_solr => sunspot_rails y spree_solr => spree_sunspot
-[2] [c] ___ ver como es lo de las busqueda facetada y los drill down search con sunspot
-[2] [c] CLC valorar que atributos de que clases hay que guardar en solr, si los de ahora estan bien o no
-[2] [b] CLC valorar guardar en solr option_type, option_values, prperties, etc, para mejorar velocidad
-[2] [a] ___ implementar la busqueda general de arriba con sunspot
-[1] [b] CLC estudiar como se pagina y como se ordena con sunspot
-[3] [b] ___ el pago con worldpay (correos con links, callbacks, etc.)
-[2] [a] ___ un boton tipo laura para vender otros productos que no esten en el sitio
-[1] [a] ___ implementar un feed o algo similar para enterarse de las nuevas ordenes
-[1] [a] ___ implementar un feed o algo similar para cuando aparecen nuevos productos o nuevas promociones
-[2] [c] ___ ver como es el tema con otros tipos de pago (tarjetas de credito, paypal, etc.)
-[1] [a] ___ eliminar las cosas de shipping
-[1] [b] MSF analizar el tema de disponibilidad y estudiar inventario y hacer modificaciones necesarias
-[ ] [b] ___ ver lo de las plantillas de los correos que se envian que sean configurables en la vista de admin
-[2] [b] PQR los property types (con iconos y otras cosas mas)
-[ ] [b] RPA que hay con los addresses? se quedan igual que ahora? cambia algo?
-[ ] [b] ___ estudiar mecanismo de spree para configuraciones para usarlo en las gemas
-[ ] [c] ___ generar bien todas las configuraciones que nos hacen falta en las gemas
-[ ] [?] ___ que hay de los calculators? se usan? y los rates? cada modulo implementa su calculator y su rate?
-[1] [a] ___ poner botones para la carga de datos en la vista de administracion
-[2] [c] ___ estudiar paperclip a ver si se puede definir dinamicamente el tamaño de la imagen (cargarla de config)
-[2] [a] ___ que cada tipo de producto defina su tamaño de imagen o cuantas imagenes usa
-[3] [a] ___ acordarse de hacer strip, y ver que parametros mas hay que pasar para que los thumbnails sean chiquitos
-[2] [b] ___ las traducciones del sitio, y los productos
-[3] [c] ___ ver donde quiera que ocurra el N + 1 query problem y eliminarlo
-[2] [c] ___ estudiar bien rails en los temas de cache (paginas, accciones, fragmentos) para optimizar el sitio
-[3] [c] ___ ver bien lo de los assets fingerprint
-[3] [b] ___ en produccion siempre comprimir los assets
-[1] [c] ___ estudiar bien si vamos a usar apache o nginx y aprender como tratan los assets
-[2] [c] ___ estudiar las consultas que mas tiempo demoran y averiguar por que, (incluso antes de memcachearlas)
-[1] [c] ___ estudiar la posibilidad de hacer tablas con informacion redundante para agilizar datos
-[1] [b] ___ valorar almacernar imagenes en amazon s3, estudiar que hay en spree, sobre eso, ver que hay en rails
-[3] [c] ___ hacer todas las cosas de SEO que nos encontremos (tengo un tutorial con una pila de cosas)
-[1] [b] ___ aprender bien como se usan y para que sirven los product_groups
-[2] [b] ___ implementar lo de los productos recomendados
-[1] [b] ___ estudiar los prototipos que tampoco sabemos usar bien (a la hora de crear un producto nuevo)
-[3] [c] ___ hacer un buscador pacotilloso, similar al de ahora pero que cada modulo ponga su informacion
-[1] [b] ___ hacer un autocompletamiento en el buscador (tipo joana)
-[1] [b] ___ login con overlay, con ajax para autenticar ahi mismo sin salir de la pagina y con alert si hay error
-[1] [a] ___ el slider de la vista home
-[3] [c] RPA ver lo del multicurrency
-[1] [b] ___ hacer buen uso de I18n, no solo usar translate, usar tambien transliterate, localize, etc
-[1] [b] ___ hacer lo de los bread crumbs
-[3] [a] ___ cart-form y mini-cart-form en la vista index, show, etc
-[1] [a] ___ visualizar el contexto en el buscador
-[1] [b] ___ hacer en el buscador lo de nueva busqueda o actualizar precio
-[2] [c] ___ implementar los programas/paquetes que no tienen nada de especial
-[2] [c] ___ implementar las rutas (rutas a pie, en bicicleta, en guagua, en camion, en otras cosas)
-[1] [c] TST implemtar los enhanced relations (1-m, m-m, 1-1, validaciones, etc.)
-[1] [c] TST las relaciones deben permitir definir diferentes tipos en el related_to y el relatable
-[1] [c] TST todo lo de las relaciones mejoradas se puede hacer en la vista de administracion
-[3] [c] ___ implementar lo de los puntos de interes, con sus categorias, sus vistas, etc (quitarles precio)
-[1] [c] TST hacer un menu super comico y pacotilloso con javascript y configurable en la administracion
-[1] [b] TST terminar los spree_location (meterle lo de nearest, related, etc.) mostrar varias cosas en el mapa, etc.
-[1] [b] TST las cosas de spree_location deben ser configurables via Spree::Config (cantidad a mostrar, distancia max)
-[3] [c] ___ implementar los accomodation (hoteles y habitaciones)
-[3] [c] ___ implementar los vuelos (internacionales, domesticos, ida, ida y vuelta, etc.) (tiene 2 taxons de destino)
-[2] [c] ___ implementar los destinos (subdestinos recursivos) (no tienen precio)
-[2] [c] ___ implementar los transfers (tiene dos taxos de destino)
-[2] [c] ___ implementar las excursiones
-[3] [b] ___ implementar metodos in_taxon_at_same_time (bien optimizados)
-[2] [c] ___ implementar los filter queries (para los filtros de abajo del buscador) y que cada modulo redefina el metodo
-[2] [c] ___ implementar metodo generico product.facets que cada modulo redefina para la busqueda facetada
-[3] [b] ___ revisar bien en sunspot como buscar por properties, properti types, option values, etc.
-[2] [b] ___ adicionar clase Context para cada tipo de producto con logica particular para cada contexto
-[2] [c] ___ modificar order o line_item para que cargue su contexto cuando le haga falta
-[2] [c] ___ implementar los rentacars
-[1] [b] TST baners super comicos, y mejorados asociados a taxons, etc.
-[1] [a] ___ mostrar distancia a los puntos de interes
-[1] [a] ___ ver lo de las paginas estaticas
-[2] [c] ___ las cosas de redes sociales facebook, twitter, etc
-[3] [c] RPA las modificaciones de las gemas (flexivariat, etc.) todas las gemas modificadas hay que desmodificarlas
-[2] [b] ___ las cosas de geokit, ver si hay algo mas moderno que eso
-[1] [a] ___ NEW adicionar cantidad de habitaciones en buscador de hotel
-[1] [b] ___ NEW que en el buscador si uno cambia la fecha de inicion, con js se cambie la de fin tambien
-[1] [a] ___ NEW adicionar anuncios de google en el sitio para amortizar otros gastos
-[1] [a] ___ NEW poder tener un mapa mas grade con mas nivel de detalle (ya lo del mapa interactivo es otro todo)
-[1] [b] ___ NEW adicionar otros metodos de ordenacion (mas comprados, distancia, etc.)
-[1] [c] ___ NEW filtros por rangos de precios
-[1] [b] ___ NEW ponerle un momton mas de properties a los productos para poder hacer busquedas mas interesantes
-[1] [b] ___ NEW mostrar los productos que ha visto el usuario en las paginas que el visita
-[1] [c] ___ NEW visualizador de imagines super comico y pacotilloso a lo facebook, con un overlay y slideshow y todo eso
-[1] [c] ___ NEW visualizar en en listado de hotel, las habitaciones, los precios y el boton de comprar, sin tener que ir a detalles
-[1] [b] ___ NEW representar con unos iconitos la cantidad de pax de una reservacion en el listado de productos
-[1] [a] ___ NEW que en el listado de hoteles se vea la categoria del hotel [tipo de hotel]
-[1] [a] ___ NEW tiene que quedar bien claro el precio que cosa es [total, por noche, por 2 personas, etc.]
-[1] [a] ___ NEW link a los comentarios del producto
-[1] [b] ___ NEW fecha de la ultima vez que se compro el producto, cantidad de veces que se ha comprado, etc.
-
-Carga de Datos
-==============
-[3] [c] MSF estudiar la gema spreadsheet
-[3] [c] MSF estudiar la gema data-shift-spree
-[3] [c] CLC ver como se integra pentajo con rails
-[3] [c] MSF estudiar esale_spree (u otro conector con openerp que exista, el de factor libre, etc.)
-[3] [c] ___ hacer scripts de carga en el mecanismo mejor que encontremos
-[3] [b] ___ definir para cada modulo formato general de intercambio de datos
-[1] [b] ___ hacer metodos para exportar datos del sistema en excels que puedan ser cargados por el propio sistema.
-[2] [c] ___ hacer funciones en spree para importar y exportar datos en excel
-[2] [c] ___ hacer funciones en spree para importar y exporar datos desde y hacia openerp
-[1] [c] ___ valorar hacer nosotros nuestro propio conector (la otrora gema spree_openerp_communicator)
-[1] [b] ___ estudiar los prototipos que tampoco sabemos usar bien (pensando en la carga de datos)
-[1] [c] ___ estudiar como se exporta a pdf
-[1] [a] ___ hacer tareas rake para cargar datos
-
-Pacotillas
-==========
-[ ] [a] ___ adicionarle imagenes a las promociones
-[ ] [c] ___ ver si se puede generar con js un sellito encima de las imagenes de los productos que tienen promocion.
-[ ] [c] RPA ver si se puede hacer un autocompletamniento en la busqueda con las cosas que hay en la base de datos
-[ ] [c] MSF mapita interactivo que quiere julio (lo cual me parece una buena idea tener)
-[ ] [b] ___ usar cookies para saber las cosas que visita sin que se loguee
-[ ] [b] ___ recordar, idiomas, settings, categorias mas visitadas, etc, y sugerir cosas, ver productos similares, etc.
-[3] [c] MSF ver lo de los temas de spree (fancy en particular)
-[3] [c] MSF asegurarse que los cambios que nosotros hacermos mantengan el responsiveness de spree_fancy
-[1] [a] ___ un loading para cuando el sitio se carga
-[1] [c] ___ que las imagenes no se carguen automaticamente, se muestra un loadind y luego se piden asincronamente
-[1] [c] ___ que la imagen solo se pida cuando el usuario bajo el scroll hasta ella
-[3] [c] MSF garantizar que en todo momento el sitio se vea en moviles
-[2] [c] ___ implementar scroll infinito
-[1] [a] ___ imagenes por defecto de properties, taxons, productos, etc
-[1] [a] ___ resaltar productos que esten promocionados
-[1] [c] ___ ver como sunspot da sugerencias a las busquedas
-[1] [a] ___ buscar un ckedior, tinymce o quien sea, pero que sea bien ligero
-[1] [a] ___ el overlay de las descripciones
-
-######################################################################################################################
-### TERMINADAS
+# openjaf/cuban_swing close issues
 ######################################################################################################################
 
