@@ -20,15 +20,17 @@ LEYENDA
 ######################################################################################################################
 # openjaf/cuban_swing open issues
 ######################################################################################################################
-  142  Adicionar arriba del listado de vuelo, lo q llaman Matrix de Aerolinea, filas cantidad de escalas(0,1,2) columnas las... [convenient] [normal]
+  144  Rate X tipo de producto, que desde la admin, con pocas reglas genere variantes y precios [necessary] [difficult]
+  143  Configurar tipos de pax x tipo de producto, con intervalos de edades correspondientes [necessary] [normal]
+  142  Adicionar arriba de vuelos, Matrix de Aerolinea, tabla de escalas (0,1,2) vs. aerolinas, precio en las celdas [convenient] [normal]
   141  Por tipo de producto, definir mín de días a los que se puede reservar, para que sea posible la gestión [convenient] [normal]
-  140  Crear alertas por el usuario, Ej recibir email de vuelos en Sept de Barcelona a Cancún en < 700 EUR... [convenient] [difficult]
-  139  En un vuelo link "Sead Map" se selecciona en un diagrama del avión un asiento disponible... [convenient] [difficult] [availability]
-  138  Agregar a buscador link de información "Age categories" donde se espeficifican los rangos de edades que corresponde a adulto,... [convenient]
-  137  Cuando haya fecha en el buscador, habilitar checkbook que si se marca busca 3 días antes y 3 después a la... [convenient] [normal] [search]
+  140  Crear alertas por el usuario, Ej vuelos en Sept de Quebec a Cancún < 500 USD [convenient] [difficult]
+  139  En un de productosvuelo link "Sead Map" para seleccionar en un diagrama asiento disponible [convenient] [difficult] [availability]
+  138  link "Age categories" en buscador para mostrar intervalos de edades de adulto, niño, bebé etc [convenient]
+  137  Checkbox en buscador, si se marca busca 3 días antes y después a fecha especificada [convenient] [normal] [search]
   136  Adicionar radio button en listado de vuelos cuando para igual ruta hay más de un horario disponible [necessary] [normal]
-  135  En vuelo además de "Ida y Vuelta" y "Solo ida", adicionar "Varios Destinos" (se conoce como conexión de destinos)
-  134  Flight + Hotel + Car, Flight + Hotel, Flight + Car, Hotel + Car hacerlo con máquina de estado, aplicar descuentos 
+  135  En vuelo además de "Ida y Vuelta" y "Solo ida", adicionar "Varios Destinos" (se conoce como conexión de destinos) [convenient] [difficult]
+  134  Flight + Hotel + Car, Flight + Hotel, Flight + Car, Hotel + Car hacerlo con máquina de estado, aplicar descuentos [necessary] [normal]
   133  Posibilidad de subir videos, valorar Vimeo [convenient] [normal]
   132  Desde un listado, limitar las opciones del buscador a las válidas para el listado. [convenient] [normal]
   131  Al modificar la búsqueda desde show, limitar las selecciones de contexto a las válidas del producto [convenient] [normal] @tst 
